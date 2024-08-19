@@ -1,0 +1,1002 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  font-family: "DM Sans";
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+  background-color: #fbf9f4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 1240px;
+  margin: 0 auto;
+  background-color: #fbf9f4;
+}
+
+.logo {
+  width: 20%;
+}
+
+.logo img {
+  width: 200px;
+  height: 100px;
+}
+
+.menu {
+  width: 50%;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.menu ul a {
+  text-decoration: none;
+  color: black;
+  padding: 7px;
+  transition: 0.5s;
+}
+
+.menu li a:hover {
+  color: black;
+  background-color: #e9bb71;
+  border-radius: 5px;
+}
+
+.tombol {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.tombol button {
+  background-color: #295c51;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.tombol .tombol1 {
+  background-color: #e9bb71;
+  color: black;
+}
+
+/* content utama */
+
+/* .content {
+  margin-top: 70px;
+} */
+
+.jumbotron-logo {
+  background-color: #fbf9f4;
+  padding-top: 70px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 24px;
+  width: 1240px;
+  background-color: #fbf9f4;
+}
+
+.text {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text > * {
+  margin-top: 10px;
+}
+
+.text h1 {
+  font-size: 3.3em;
+}
+
+.text p {
+  font-size: 1.1em;
+  line-height: 30px;
+}
+
+.text button {
+  width: 160px;
+  height: 55px;
+  background-color: #e9bb71;
+  padding: 17px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  color: black;
+}
+
+.bawah-jumbotron {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.bawah-jumbotron img {
+  border-radius: 100%;
+  width: 50px;
+  border: 1.5px solid #295c51;
+}
+
+.satu-bawah {
+  margin-left: 20px;
+}
+
+.dua-bawah {
+  margin-left: -10px;
+}
+
+.bawah-jumbotron p {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.hero {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* Bran */
+
+.bran {
+  padding: 0 24px;
+  width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  gap: 5px;
+  margin-top: 50px;
+  background-color: #fbf9f4;
+  padding-bottom: 100px;
+}
+
+.logo-bran img {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+}
+
+.logo-bran {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.logo-bran.akhir {
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+/* Content1 */
+.content1 {
+  width: 1240px;
+  margin: 0 auto;
+  background-color: #295c51;
+  display: flex;
+  padding: 90px 0;
+}
+
+.kata {
+  width: 33%;
+  color: #fff;
+}
+
+.kata > * {
+  margin-top: 10px;
+}
+
+.kata h1 {
+  font-size: 40px;
+}
+
+.kata h1 + p {
+  line-height: 25px;
+}
+
+.kata p {
+  font-size: 14px;
+}
+
+.hero-content1 {
+  width: 67%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr;
+  gap: 28px;
+  padding: 50px;
+}
+
+.gambar {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.gambar img {
+  width: 250px;
+}
+
+.gambar-hero {
+  display: flex;
+  justify-content: center;
+}
+
+.text-card {
+  padding: 20px;
+}
+
+.text-card h1 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.text-card p {
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+/* solutions */
+
+.solutions {
+  background-color: #295c51;
+}
+
+/* Content 2 */
+
+.content2 {
+  width: 1240px;
+  margin: 0 auto;
+  background-color: #fbf9f4;
+  display: flex;
+  flex-direction: column;
+  padding: 90px 24px;
+}
+
+.quote {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.quote h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+.quote p:last-child {
+  line-height: 25px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto-fit;
+  gap: 18px;
+}
+
+.card-item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 45px;
+}
+
+.kotak-icon {
+  background-color: #fbf9f4;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 500ms;
+}
+
+.kotak-icon img {
+  width: 25px;
+}
+
+.text-kotak {
+  margin-top: 10px;
+}
+
+.text-kotak h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.text-kotak p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.card-item:hover .kotak-icon {
+  background-color: #295c51be;
+}
+
+.satu {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.dua {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.tiga {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.empat {
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.lima {
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.enam {
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.baru {
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+
+/* srvices */
+.services {
+  background-color: #fbf9f4;
+}
+
+/* resource */
+.resource {
+  background-color: #fff;
+}
+
+/* Content 3 */
+
+.content3 {
+  background-color: #fff;
+  display: flex;
+  margin: 0 auto;
+  width: 1240px;
+  padding: 90px 24px;
+}
+
+.text-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-side h1 {
+  font-size: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text-side p:nth-child(3) {
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.text-side p.bawah span {
+  background-color: #e9bb71;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 100%;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.hero-right {
+  margin: 60px 0;
+  width: 50%;
+  display: grid;
+  grid-auto-rows: 170px 170px 170px;
+  gap: 20px;
+}
+
+.hero1,
+.hero2,
+.hero3 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card-hero {
+  background-color: #fbf9f4;
+  width: 170px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-hero img {
+  width: 130px;
+}
+
+/* rating pengguna */
+
+.rating-pengguna {
+  background-color: #fbf9f4;
+}
+
+/* Rating */
+
+.reting {
+  background-color: #fbf9f4;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1240px;
+  padding: 90px 24px;
+}
+
+.text-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-header h1 {
+  font-size: 44px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.text-header h1 + p {
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+.card-reting {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 15px;
+}
+
+.item-rating {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 35px 35px 10px 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-card {
+  height: 50%;
+}
+
+.profile {
+  height: 50%;
+  padding-top: 20px;
+}
+
+.header-card p:first-child {
+  letter-spacing: -5px;
+}
+
+.header-card p:nth-child(2) {
+  line-height: 25px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.item-rating .profile {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.item-rating .profile img {
+  width: 60px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+/* Langganan */
+
+.langganan-berbayar {
+  background-color: #295c51;
+}
+
+.langganan {
+  background-color: #295c51;
+  display: flex;
+  margin: 0 auto;
+  width: 1240px;
+  padding: 90px 24px;
+}
+
+.side {
+  width: 40%;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.side-atas h1 {
+  font-size: 44px;
+  margin-top: 20px;
+}
+
+.side-bawah p {
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.side-bawah button {
+  background-color: white;
+  width: 150px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  color: #295c51;
+}
+
+.right-card {
+  width: 60%;
+  display: flex;
+  gap: 28px;
+}
+
+.card-langganan {
+  background-color: #fff;
+  width: 50%;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.card-langganan ul {
+  list-style: none;
+  font-size: 16px;
+  margin-top: 35px;
+}
+
+.card-langganan li {
+  margin-top: 10px;
+}
+
+.tombol-langganan {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tombol-langganan button {
+  width: 100%;
+  background-color: #295c51;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.tombol-langganan.satu button {
+  width: 100%;
+  background-color: #e9bb71;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+h2.harga {
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.harga img {
+  width: 19px;
+  height: 19px;
+  margin-bottom: 20px;
+}
+
+.harga-text {
+  font-size: 50px;
+}
+
+.bulan {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+h2.judul-langganan {
+  margin-bottom: 20px;
+}
+
+h2.judul-langganan + p {
+  line-height: 25px;
+}
+
+/* Pertanyaan */
+
+.pertanyaan-pengguna {
+  background-color: #fbf9f4;
+}
+
+.pertanyaan {
+  background-color: #fbf9f4;
+  display: flex;
+  width: 1240px;
+  margin: 0 auto;
+  padding: 90px 24px;
+}
+
+.side-pertanyaan {
+  padding: 20px;
+  width: 50%;
+}
+
+.side-pertanyaan h1 {
+  font-size: 45px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.side-pertanyaan h1 + p {
+  line-height: 30px;
+}
+
+.right-pertanyaan {
+  width: 50%;
+  display: grid;
+  grid-template-rows: 120px 120px 120px 120px 120px;
+  gap: 10px;
+  padding: 20px;
+}
+
+.text-pertanyaan {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-pertanyaan h2 {
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.text-pertanyaan p {
+  font-size: 14px;
+}
+
+/* Blog */
+
+.blog-perusahaan {
+  background-color: #fff;
+}
+
+.kata-kata {
+  background-color: #fff;
+  display: flex;
+  margin: 0 auto;
+  width: 1240px;
+  padding: 90px 24px;
+}
+
+.side-kata {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.side-kata h1 {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.side-kata h1 + p {
+  line-height: 25px;
+}
+
+.tombol-blog button {
+  background-color: #295c51;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.tombol-blog button.satu {
+  background-color: #e9bb71;
+  color: black;
+  margin-right: 10px;
+}
+
+.right-kata {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.kata-hero {
+  background-color: #fff;
+  height: 500px;
+  padding: 20px;
+}
+
+.gambar-blog {
+  display: flex;
+  justify-content: center;
+}
+
+.gambar-blog img {
+  width: 250px;
+}
+
+.text-blog h2 {
+  font-size: 20px;
+}
+
+.text-blog p {
+  margin-top: 15px;
+  line-height: 25px;
+}
+
+/* Form */
+
+.contact-perusahaan {
+  background-color: #295c51;
+}
+
+.form {
+  background-color: #295c51;
+  display: flex;
+  color: white;
+  width: 1240px;
+  margin: 0 auto;
+  padding: 90px 24px;
+}
+
+.kata-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kata-form h1 {
+  font-size: 45px;
+}
+
+.kata-form p:nth-child(2) {
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.kata-form p:last-child span {
+  font-weight: 550;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.kata-form p:last-child {
+  line-height: 25px;
+}
+
+.main-form {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80px 80px 120px 40px 80px;
+  grid-template-areas:
+    "nama nomor"
+    "email perusahaan"
+    "text-area text-area"
+    "check check"
+    "button button";
+}
+
+.main-form div {
+  padding: 20px;
+}
+
+.main-form input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+}
+
+.main-form textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  font-family: "DM Sans";
+}
+
+.main-form button {
+  background-color: #e9bb71;
+  color: black;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+.nama {
+  grid-area: nama;
+}
+
+.nomor {
+  grid-area: nomor;
+}
+
+.email {
+  grid-area: email;
+}
+
+.perusahaan {
+  grid-area: perusahaan;
+}
+
+.text-area {
+  grid-area: text-area;
+}
+
+.check {
+  grid-area: check;
+}
+
+.check input {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.button {
+  grid-area: button;
+}
+
+/* Footer */
+
+.pembungkus-footer {
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #fff;
+  display: grid;
+  grid-template-areas:
+    "side right"
+    "bootom bootom";
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 24px;
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.side-footer {
+  grid-area: side;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.side-footer p {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.logo-footer img {
+  width: 200px;
+  height: 100px;
+}
+
+.right-footer {
+  grid-area: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.credit {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.credit ul {
+  list-style: none;
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+.bootom-footer {
+  grid-area: bootom;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.side-bootom {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.right-bootom {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+}
+
+.right-bootom p {
+  margin-left: 10px;
+  margin-right: 20px;
+}
